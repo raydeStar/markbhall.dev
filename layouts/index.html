@@ -1,0 +1,68 @@
+{{ define "main" }}
+<section class="hero">
+  <div class="shell hero-grid">
+    <div>
+      <p class="eyebrow"><span></span> Local models. Real tools. Honest measurements.</p>
+      <h1>Building AI systems that earn their confidence.</h1>
+      <p class="hero-copy">
+        I’m Mark Hall, an AI engineer at GoEngineer. I write about local language
+        models, agentic systems, evaluation, and the engineering between a
+        convincing demo and dependable software.
+      </p>
+      <div class="hero-actions">
+        <a class="button primary" href="{{ "/writing/" | relURL }}">Read the writing</a>
+        <a class="button secondary" href="{{ site.Params.sirThaddeus }}">Explore Sir Thaddeus <span aria-hidden="true">↗</span></a>
+      </div>
+    </div>
+    <aside class="signal-card" aria-label="Current focus">
+      <p class="signal-label">Current focus</p>
+      <p class="signal-title">Can a 1.2B model do useful work?</p>
+      <p>Not by pretending it knows everything. By giving it bounded tools, memory, permissions, and verification—and measuring the result honestly.</p>
+      <div class="signal-meta">
+        <span><i></i> Experimenting in public</span>
+        <a href="{{ site.Params.sirThaddeus }}">GitHub repository</a>
+      </div>
+    </aside>
+  </div>
+</section>
+
+<section class="section shell">
+  <div class="section-heading">
+    <div>
+      <p class="eyebrow"><span></span> Latest writing</p>
+      <h2>Notes from the workbench</h2>
+    </div>
+    <a class="text-link" href="{{ "/writing/" | relURL }}">All writing <span aria-hidden="true">→</span></a>
+  </div>
+  <div class="post-grid">
+    {{ range first 3 (where site.RegularPages "Section" "posts") }}
+      <article class="post-card">
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+          <span>{{ .ReadingTime }} min read</span>
+        </div>
+        <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+        <p>{{ .Description | default .Summary }}</p>
+        <a class="card-link" href="{{ .RelPermalink }}" aria-label="Read {{ .Title }}">Read article <span aria-hidden="true">→</span></a>
+      </article>
+    {{ end }}
+  </div>
+</section>
+
+<section class="project-band">
+  <div class="shell project-grid">
+    <div>
+      <p class="eyebrow light"><span></span> Open source project</p>
+      <h2>Sir Thaddeus</h2>
+      <p>A local-first AI assistant for Windows with permissioned tools, durable memory, visible evidence, and a hard stop button.</p>
+    </div>
+    <div class="project-points">
+      <span>Runs with local models</span>
+      <span>Audited tool execution</span>
+      <span>Evidence-driven experiments</span>
+      <a class="button project-button" href="{{ site.Params.sirThaddeus }}">View on GitHub <span aria-hidden="true">↗</span></a>
+    </div>
+  </div>
+</section>
+{{ end }}
+

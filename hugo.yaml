@@ -1,0 +1,36 @@
+baseURL: "https://markbhall.dev/"
+locale: "en-US"
+title: "Mark Hall"
+copyright: "Mark Hall"
+enableRobotsTXT: true
+enableGitInfo: false
+summaryLength: 38
+
+pagination:
+  pagerSize: 8
+
+taxonomies:
+  tag: tags
+
+permalinks:
+  posts: "/writing/:slug/"
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: false
+  highlight:
+    noClasses: false
+    style: "github-dark"
+
+outputs:
+  home:
+    - HTML
+    - RSS
+
+params:
+  description: "Notes on local AI, agentic systems, evaluation, and building trustworthy software."
+  author: "Mark Hall"
+  github: "https://github.com/raydeStar"
+  linkedin: "https://www.linkedin.com/in/mhall0808"
+  sirThaddeus: "https://github.com/raydeStar/sir-thaddeus"

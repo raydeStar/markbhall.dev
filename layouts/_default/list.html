@@ -1,0 +1,26 @@
+{{ define "main" }}
+<header class="page-hero">
+  <div class="shell narrow">
+    <p class="eyebrow"><span></span> {{ if eq .Section "posts" }}Writing{{ else }}{{ .Title }}{{ end }}</p>
+    <h1>{{ if eq .Section "posts" }}Field notes from building trustworthy AI.{{ else }}{{ .Title }}{{ end }}</h1>
+    {{ with .Description }}<p>{{ . }}</p>{{ end }}
+  </div>
+</header>
+<section class="section shell narrow">
+  {{ if .Content }}<div class="prose intro-prose">{{ .Content }}</div>{{ end }}
+  <div class="post-list">
+    {{ range .Pages }}
+      <article>
+        <div class="post-meta">
+          <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+          <span>{{ .ReadingTime }} min read</span>
+        </div>
+        <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
+        <p>{{ .Description | default .Summary }}</p>
+        <a class="card-link" href="{{ .RelPermalink }}">Read article <span aria-hidden="true">→</span></a>
+      </article>
+    {{ end }}
+  </div>
+</section>
+{{ end }}
+

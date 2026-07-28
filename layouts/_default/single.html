@@ -1,0 +1,43 @@
+{{ define "main" }}
+{{ if eq .Section "posts" }}
+<article>
+  <header class="article-header">
+    <div class="shell article-shell">
+      <a class="back-link" href="{{ "/writing/" | relURL }}">← Writing</a>
+      <div class="article-meta">
+        <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "January 2, 2006" }}</time>
+        <span>{{ .ReadingTime }} min read</span>
+      </div>
+      <h1>{{ .Title }}</h1>
+      {{ with .Description }}<p class="article-dek">{{ . }}</p>{{ end }}
+      {{ with .Params.tags }}
+      <div class="tags" aria-label="Article topics">
+        {{ range . }}<a href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">{{ . }}</a>{{ end }}
+      </div>
+      {{ end }}
+    </div>
+  </header>
+  <div class="shell article-layout">
+    <div class="article-rail" aria-hidden="true"><span></span></div>
+    <div class="prose">{{ .Content }}</div>
+  </div>
+  <footer class="article-footer shell article-shell">
+    <p class="eyebrow"><span></span> Keep exploring</p>
+    <h2>Follow the experiment in public.</h2>
+    <p>The code, evidence, and current research record live in the Sir Thaddeus repository.</p>
+    <a class="button primary" href="{{ site.Params.sirThaddeus }}">View Sir Thaddeus on GitHub <span aria-hidden="true">↗</span></a>
+  </footer>
+</article>
+{{ else }}
+<header class="page-hero">
+  <div class="shell narrow">
+    <p class="eyebrow"><span></span> {{ .Title }}</p>
+    <h1>{{ .Description }}</h1>
+  </div>
+</header>
+<section class="section shell narrow">
+  <div class="prose">{{ .Content }}</div>
+</section>
+{{ end }}
+{{ end }}
+
