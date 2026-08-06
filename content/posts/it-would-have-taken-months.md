@@ -38,8 +38,8 @@ file storage. No queue. Which is exactly what it was for, until suddenly it
 wasn't.
 
 None of that is unusual. I have onboarded several of these in a short stretch,
-and they fail in the same three places every single time. Not similar places---
-the same three:
+and they fail in the same three places every single time. Not similar
+places---the same three:
 
 1. A data layer that is not a database.
 2. Security that does not exist.
@@ -201,10 +201,10 @@ actually needed, and work out how to replace that access without casually
 breaking a production workflow.
 
 That matters because "an afternoon" is not a universal unit of effort. The
-mechanical work can collapse dramatically. Uncertainty at a real boundary---
-production access, consequential data, an integration nobody fully owns---does
-not. Sometimes the professional move is to go faster. Sometimes it is to stop
-and find out what you are holding.
+mechanical work can collapse dramatically. Uncertainty at a real
+boundary---production access, consequential data, an integration nobody fully
+owns---does not. Sometimes the professional move is to go faster. Sometimes it
+is to stop and find out what you are holding.
 
 ## The objection I get every time
 
