@@ -1,0 +1,7 @@
+<figure class="article-diagram">
+  <picture>
+    {{ with .Get "mobile" }}<source media="(max-width: 640px)" srcset="{{ . }}">{{ end }}
+    <img src="{{ .Get "src" }}" alt="{{ .Get "alt" }}" loading="lazy">
+  </picture>
+  {{ with .Get "caption" }}<figcaption>{{ . }}</figcaption>{{ end }}
+</figure>

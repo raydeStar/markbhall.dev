@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 930" role="img" aria-labelledby="title desc">
+  <title id="title">From a hardening snapshot to a sustainable road</title>
+  <desc id="desc">A one-time hardening sprint makes today's app releasable. Future changes stay safe only when standards during building, graduation checks, and automated gates form a continuous path.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#b65f1e"/></marker>
+    <style>.label{font:600 28px Manrope,Arial,sans-serif;fill:#171612}.small{font:500 20px 'DM Mono',monospace;fill:#69665f}.body{font:400 23px Manrope,Arial,sans-serif;fill:#3f3c36}.box{fill:#fbf8f1;stroke:#d8d0c1;stroke-width:3}.dark{fill:#171612}.darkText{font:600 27px Manrope,Arial,sans-serif;fill:#fffdf8}.line{fill:none;stroke:#b65f1e;stroke-width:5;marker-end:url(#arrow)}.roadLine{fill:none;stroke:#d8d0c1;stroke-width:4;marker-end:url(#arrow)}</style>
+  </defs>
+  <rect width="600" height="930" fill="#f5f1e8"/>
+  <text x="42" y="54" class="small">THE SNAPSHOT</text>
+  <rect x="42" y="82" width="516" height="112" class="box"/>
+  <text x="70" y="129" class="label">Useful local tool</text>
+  <text x="70" y="168" class="body">One builder · one machine</text>
+  <path d="M300 194V238" class="line"/>
+  <rect x="42" y="250" width="516" height="112" class="box"/>
+  <text x="70" y="297" class="label">Hardening sprint</text>
+  <text x="70" y="336" class="body">Closes today's gap</text>
+  <path d="M300 362V406" class="line"/>
+  <rect x="42" y="418" width="516" height="112" class="dark"/>
+  <text x="70" y="465" class="darkText">Releasable today</text>
+  <text x="70" y="504" class="body" style="fill:#d8d0c1">Secure as of Tuesday</text>
+  <text x="42" y="592" class="small">THE ROAD</text>
+  <rect x="42" y="620" width="516" height="288" class="dark"/>
+  <path d="M94 681V852" class="roadLine"/>
+  <circle cx="94" cy="691" r="11" fill="#b65f1e"/>
+  <circle cx="94" cy="763" r="11" fill="#b65f1e"/>
+  <circle cx="94" cy="835" r="11" fill="#b65f1e"/>
+  <text x="132" y="701" class="darkText">Standards while building</text>
+  <text x="132" y="773" class="darkText">Graduation checks</text>
+  <text x="132" y="845" class="darkText">Gate every change</text>
+</svg>

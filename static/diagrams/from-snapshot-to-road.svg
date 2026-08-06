@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 470" role="img" aria-labelledby="title desc">
+  <title id="title">From a hardening snapshot to a sustainable road</title>
+  <desc id="desc">A one-time hardening sprint makes today's app releasable. Future changes stay safe only when standards during building, graduation checks, and automated gates form a continuous path.</desc>
+  <defs>
+    <marker id="arrow2" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#b65f1e"/>
+    </marker>
+    <style>
+      .label{font:600 18px Manrope,Arial,sans-serif;fill:#171612}.small{font:500 14px 'DM Mono',monospace;fill:#69665f}.body{font:400 16px Manrope,Arial,sans-serif;fill:#3f3c36}.box{fill:#fbf8f1;stroke:#d8d0c1;stroke-width:2}.road{fill:#171612}.roadText{font:600 16px Manrope,Arial,sans-serif;fill:#fffdf8}.line{fill:none;stroke:#b65f1e;stroke-width:3;marker-end:url(#arrow2)}.muted{stroke:#d8d0c1;stroke-width:2;stroke-dasharray:8 8}
+    </style>
+  </defs>
+  <rect width="960" height="470" rx="4" fill="#f5f1e8"/>
+  <text x="52" y="52" class="small">THE SNAPSHOT</text>
+  <rect x="52" y="80" width="240" height="108" class="box"/>
+  <text x="78" y="120" class="label">Useful local tool</text>
+  <text x="78" y="151" class="body">One builder · one machine</text>
+  <path d="M292 134H355" class="line"/>
+  <rect x="365" y="80" width="230" height="108" class="box"/>
+  <text x="391" y="120" class="label">Hardening sprint</text>
+  <text x="391" y="151" class="body">Closes today's gap</text>
+  <path d="M595 134H658" class="line"/>
+  <rect x="668" y="80" width="240" height="108" class="road"/>
+  <text x="694" y="120" class="roadText">Releasable today</text>
+  <text x="694" y="151" class="body" style="fill:#d8d0c1">Secure as of Tuesday</text>
+  <line x1="788" y1="188" x2="788" y2="244" class="muted"/>
+  <text x="52" y="265" class="small">THE ROAD</text>
+  <rect x="52" y="293" width="856" height="112" class="road"/>
+  <path d="M88 349H870" stroke="#d8d0c1" stroke-width="2" marker-end="url(#arrow2)"/>
+  <circle cx="188" cy="349" r="9" fill="#b65f1e"/>
+  <circle cx="480" cy="349" r="9" fill="#b65f1e"/>
+  <circle cx="772" cy="349" r="9" fill="#b65f1e"/>
+  <text x="112" y="326" class="roadText">Standards while building</text>
+  <text x="393" y="386" class="roadText">Graduation checks</text>
+  <text x="672" y="326" class="roadText">Gate every change</text>
+  <text x="52" y="444" class="body">The builder keeps the product. The platform keeps ordinary changes inside the guardrails.</text>
+</svg>

@@ -126,6 +126,11 @@ h1, h2, h3 { text-wrap: balance; }
 .prose h3 { margin: 2em 0 .6em; font: 700 25px/1.2 var(--sans); letter-spacing: -.025em; }
 .prose p { margin: 1.25em 0; }
 .prose blockquote { margin: 2em 0; padding: 5px 0 5px 28px; border-left: 3px solid var(--amber); color: #49453e; font-size: 1.13em; }
+.prose img { display: block; width: 100%; height: auto; margin: 2.4em 0 .7em; border: 1px solid var(--line); background: var(--paper); }
+.article-diagram { margin: 2.4em 0; }
+.article-diagram picture { display: block; }
+.article-diagram img { margin: 0; }
+.article-diagram figcaption { margin-top: .7em; color: var(--muted); font: 400 14px/1.55 var(--sans); }
 .prose strong { color: #0e0d0b; }
 .prose a { color: var(--blue); font-weight: 600; }
 .prose ul, .prose ol { padding-left: 1.4em; }
@@ -183,4 +188,3 @@ h1, h2, h3 { text-wrap: balance; }
   html { scroll-behavior: auto; }
   *, *::before, *::after { transition: none !important; }
 }
-
