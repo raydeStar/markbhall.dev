@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 500" role="img" aria-labelledby="title desc">
+  <title id="title">The missing-context gap</title>
+  <desc id="desc">A subject-matter expert and an AI assistant share domain context and produce a useful tool. Production standards sit outside that shared context, creating the gap between useful and releasable.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="5" orient="auto">
+      <path d="M0 0L10 5L0 10Z" fill="#b65f1e"/>
+    </marker>
+    <style>
+      .label{font:600 18px Manrope,Arial,sans-serif;fill:#171612}.small{font:500 14px 'DM Mono',monospace;fill:#69665f}.body{font:400 16px Manrope,Arial,sans-serif;fill:#3f3c36}.box{fill:#fbf8f1;stroke:#d8d0c1;stroke-width:2}.dark{fill:#171612}.darkText{font:600 18px Manrope,Arial,sans-serif;fill:#fffdf8}.line{fill:none;stroke:#b65f1e;stroke-width:3;marker-end:url(#arrow)}.dash{fill:none;stroke:#b65f1e;stroke-width:2;stroke-dasharray:8 8}
+    </style>
+  </defs>
+  <rect width="960" height="500" rx="4" fill="#f5f1e8"/>
+  <text x="52" y="48" class="small">WHAT IS IN THE ROOM</text>
+  <rect x="52" y="76" width="250" height="122" class="box"/>
+  <text x="78" y="118" class="label">Subject-matter expert</text>
+  <text x="78" y="151" class="body">Workflow, edge cases,</text>
+  <text x="78" y="176" class="body">what people actually need</text>
+  <rect x="355" y="76" width="250" height="122" class="box"/>
+  <text x="381" y="118" class="label">AI assistant</text>
+  <text x="381" y="151" class="body">Turns instructions into</text>
+  <text x="381" y="176" class="body">working software</text>
+  <path d="M302 137H346" class="line"/>
+  <path d="M605 137H660" class="line"/>
+  <rect x="670" y="76" width="238" height="122" class="dark"/>
+  <text x="696" y="118" class="darkText">Useful tool</text>
+  <text x="696" y="151" class="body" style="fill:#d8d0c1">Correct workflow.</text>
+  <text x="696" y="176" class="body" style="fill:#d8d0c1">People already use it.</text>
+  <path d="M789 198V276" class="dash"/>
+  <text x="817" y="244" class="small" transform="rotate(90 817 244)">THE GAP</text>
+  <rect x="355" y="302" width="553" height="140" class="box"/>
+  <text x="381" y="342" class="small">WHAT IS MISSING</text>
+  <text x="381" y="379" class="label">Organizational context</text>
+  <text x="381" y="411" class="body">Identity · data · secrets · deployment · concurrency · gates</text>
+  <path d="M632 302V240H789" class="line"/>
+  <text x="52" y="340" class="label">Not a competence failure.</text>
+  <text x="52" y="372" class="body">The model cannot apply a</text>
+  <text x="52" y="397" class="body">standard it was never given.</text>
+</svg>

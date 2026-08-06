@@ -1,0 +1,29 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 940" role="img" aria-labelledby="title desc">
+  <title id="title">The missing-context gap</title>
+  <desc id="desc">A subject-matter expert and an AI assistant share domain context and produce a useful tool. Production standards sit outside that shared context, creating the gap between useful and releasable.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12Z" fill="#b65f1e"/></marker>
+    <style>.label{font:600 28px Manrope,Arial,sans-serif;fill:#171612}.small{font:500 20px 'DM Mono',monospace;fill:#69665f}.body{font:400 23px Manrope,Arial,sans-serif;fill:#3f3c36}.box{fill:#fbf8f1;stroke:#d8d0c1;stroke-width:3}.dark{fill:#171612}.darkText{font:600 28px Manrope,Arial,sans-serif;fill:#fffdf8}.line{fill:none;stroke:#b65f1e;stroke-width:5;marker-end:url(#arrow)}.dash{fill:none;stroke:#b65f1e;stroke-width:4;stroke-dasharray:12 12}</style>
+  </defs>
+  <rect width="600" height="940" fill="#f5f1e8"/>
+  <text x="42" y="54" class="small">WHAT IS IN THE ROOM</text>
+  <rect x="42" y="82" width="516" height="130" class="box"/>
+  <text x="70" y="130" class="label">Subject-matter expert</text>
+  <text x="70" y="171" class="body">Workflow, edge cases, what people need</text>
+  <path d="M300 212V258" class="line"/>
+  <rect x="42" y="270" width="516" height="130" class="box"/>
+  <text x="70" y="318" class="label">AI assistant</text>
+  <text x="70" y="359" class="body">Turns instructions into working software</text>
+  <path d="M300 400V446" class="line"/>
+  <rect x="42" y="458" width="516" height="130" class="dark"/>
+  <text x="70" y="506" class="darkText">Useful tool</text>
+  <text x="70" y="547" class="body" style="fill:#d8d0c1">Correct workflow. People already use it.</text>
+  <path d="M300 588V642" class="dash"/>
+  <text x="324" y="625" class="small">THE GAP</text>
+  <rect x="42" y="656" width="516" height="154" class="box"/>
+  <text x="70" y="703" class="small">WHAT IS MISSING</text>
+  <text x="70" y="749" class="label">Organizational context</text>
+  <text x="70" y="785" class="body">Identity · data · secrets · deployment</text>
+  <text x="42" y="861" class="label">Not a competence failure.</text>
+  <text x="42" y="902" class="body">The standard was never in the room.</text>
+</svg>
