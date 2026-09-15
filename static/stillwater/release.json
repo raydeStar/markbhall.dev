@@ -1,7 +1,7 @@
 {
   "schema": "stillwater.public-release.v1",
   "published_path": "/stillwater/",
-  "version": "2026-09-15-cleanup-v3-pages",
+  "version": "2026-09-15-project-showcase",
   "scene_source_sha256": "90a37f50980bc59764a09d64f92d53314c21b0b304dfe8c061e750516200409a",
   "assets": [
     {
@@ -45,6 +45,26 @@
       "file": "assets/barrel-crates.glb",
       "sha256": "f0baaadb0bbd9912060936935c026f3f074519a6a4068cd1276b59212a643755",
       "triangles": 31990
+    }
+  ],
+  "page_sha256": "1ace7eb37fe04e98700c37465219cf8ad74f9ca7532a857257aeb8f62f8e7810",
+  "project_url": "https://github.com/raydeStar/reference-asset-compiler",
+  "runtime_files": [
+    {
+      "file": "assets/main-DlyFS4Nu.css",
+      "sha256": "3611b76ff7a68f456a15c920fcd7eb03eb8558c5df89df5b82265a08871101ae"
+    },
+    {
+      "file": "assets/main-RlHqqnt2.js",
+      "sha256": "1af2af96608403a7358e3902b76e345c7ced4d76a87cd5a021abbe568e19e5ce"
+    },
+    {
+      "file": "assets/modulepreload-polyfill-B5Qt9EMX.js",
+      "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0"
+    },
+    {
+      "file": "assets/three-DTv7iF0v.js",
+      "sha256": "dd67e65aca2286b54855542b1a206018217e39c3cf20233e1e315ce9738cdd21"
     }
   ]
 }

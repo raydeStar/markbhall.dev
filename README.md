@@ -14,6 +14,9 @@ The production site is published from `main` by the GitHub Pages workflow.
 ## Stillwater
 
 The interactive Three.js village is served at [/stillwater/](https://markbhall.dev/stillwater/).
+It showcases [Reference Asset Compiler](https://github.com/raydeStar/reference-asset-compiler),
+with the original reference, a four-step account of model creation, an explanation
+of the compiler's role, and links to the pipeline and workflow documentation.
 `static/stillwater/` contains its self-contained Vite build, seven GLB assets,
 references, bundled fonts and licenses. Hugo copies this directory into the
 Pages artifact without a separate application server.
