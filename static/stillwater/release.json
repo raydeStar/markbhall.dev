@@ -1,8 +1,8 @@
 {
   "schema": "stillwater.public-release.v1",
   "published_path": "/stillwater/",
-  "version": "2026-09-15-project-showcase",
-  "scene_source_sha256": "90a37f50980bc59764a09d64f92d53314c21b0b304dfe8c061e750516200409a",
+  "version": "2026-09-15-social-performance-v1",
+  "scene_source_sha256": "7c5c4f5fb099fbe3947042b823fd72950f0ea5b48c1969ea318cc0e7bff332b7",
   "assets": [
     {
       "id": "timber-cabin",
@@ -47,24 +47,225 @@
       "triangles": 31990
     }
   ],
-  "page_sha256": "1ace7eb37fe04e98700c37465219cf8ad74f9ca7532a857257aeb8f62f8e7810",
+  "page_sha256": "b3b941f7028106f554e10e4ff585e7ce3c539d44b30133393d1ad8439c35db7e",
   "project_url": "https://github.com/raydeStar/reference-asset-compiler",
   "runtime_files": [
     {
-      "file": "assets/main-DlyFS4Nu.css",
-      "sha256": "3611b76ff7a68f456a15c920fcd7eb03eb8558c5df89df5b82265a08871101ae"
+      "file": "assets/main-D1jeHqog.js",
+      "sha256": "555969ef8022f1fe5b388f7bf3e5b98b9764c4ebb98b88993f4d23383175a3ed"
     },
     {
-      "file": "assets/main-RlHqqnt2.js",
-      "sha256": "1af2af96608403a7358e3902b76e345c7ced4d76a87cd5a021abbe568e19e5ce"
+      "file": "assets/main-D5lbIhQb.css",
+      "sha256": "ccdbcc629d6c38f62357d45b2dbe4cdc6444343e83f4ac85a49ef71af1b048e5"
     },
     {
       "file": "assets/modulepreload-polyfill-B5Qt9EMX.js",
       "sha256": "d2a32840421496e872ade591618d2fa5c33797605d1aec04301717e5a90757d0"
     },
     {
-      "file": "assets/three-DTv7iF0v.js",
-      "sha256": "dd67e65aca2286b54855542b1a206018217e39c3cf20233e1e315ce9738cdd21"
+      "file": "assets/three-CaRmKncN.js",
+      "sha256": "df1d2cd9969657e6e2716444910e5ba82858906e427b8aa675c9f5157b13ee0d"
+    }
+  ],
+  "web_assets": [
+    {
+      "id": "timber-cabin",
+      "file": "assets/timber-cabin.web.glb",
+      "sha256": "0e17179a3bf3cd7cd0e4a6a1438239f8a3c0163945d3f8c5bcf110075d1c2cee",
+      "source_sha256": "9a0548a0f45dc984848e219433c1be2862723d42210f657139abcd23f2d744af",
+      "source_bytes": 5959044,
+      "bytes": 2674164,
+      "triangles": 64999,
+      "non_image_buffer_sha256": "ee53b3878a8fd229cb8cb07b0e2ed4aec96a576a56d96da16ab3e5d0b0148364",
+      "textures": [
+        {
+          "input_bytes": 1032213,
+          "output_bytes": 179066,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2959585,
+          "output_bytes": 527726,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    },
+    {
+      "id": "round-cottage",
+      "file": "assets/round-cottage.web.glb",
+      "sha256": "d8b0ef4c108eeff9861ac59880fd5a78b20390c49ca5b74f22529174759b4f5f",
+      "source_sha256": "1b640a63541d535b32ae5f02c9794171e54fc7b8f17833edb684a87d5a282ed3",
+      "source_bytes": 5185076,
+      "bytes": 2543844,
+      "triangles": 59998,
+      "non_image_buffer_sha256": "3e2ad26d9519bd8dc05519a6835409feed1a9751b2bb290dd846a1b32c15a6cd",
+      "textures": [
+        {
+          "input_bytes": 911043,
+          "output_bytes": 160214,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2285888,
+          "output_bytes": 395358,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    },
+    {
+      "id": "pine-tree",
+      "file": "assets/pine-tree.web.glb",
+      "sha256": "af33bf2439889c87b5731811a0e82bfc34dff4677258ab29b5b9c821d2f2dee9",
+      "source_sha256": "d40f622d40ef9aa8eabf1f8b2db2c632251833b1ea4c53936c43bfb9b4d9be47",
+      "source_bytes": 4261508,
+      "bytes": 1725540,
+      "triangles": 11810,
+      "non_image_buffer_sha256": "5e5aba7343d328ae1e792c522137bd3adbdb6c6f012c2697d168a97ab051c544",
+      "textures": [
+        {
+          "input_bytes": 720589,
+          "output_bytes": 119204,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2334667,
+          "output_bytes": 399964,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    },
+    {
+      "id": "wooden-dock",
+      "file": "assets/wooden-dock.web.glb",
+      "sha256": "f34d277f8eced83b960ea65f7bbe5aa5627a094684bd45d54ba70c12e9f22a35",
+      "source_sha256": "a1b3fcfd1e064ead0e93cd860a8b8a2c56e543b95c82bd39cb9179f7cc549561",
+      "source_bytes": 4221904,
+      "bytes": 1436724,
+      "triangles": 31999,
+      "non_image_buffer_sha256": "91a58ab20cd38e6b46d708ae9c19a6c5ed8a0ad9b6097620d0b267446975c271",
+      "textures": [
+        {
+          "input_bytes": 1104617,
+          "output_bytes": 192994,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2247984,
+          "output_bytes": 374298,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    },
+    {
+      "id": "rowboat",
+      "file": "assets/rowboat.web.glb",
+      "sha256": "84ca9f0688c902a8088c3b0033a061594fc5e1cd350bcc986cf590de8f53afd3",
+      "source_sha256": "0107436ff25bce0e502589ef1ac825a23524267fa253ab3ca7bc06d62bcf630a",
+      "source_bytes": 4257212,
+      "bytes": 1500104,
+      "triangles": 35000,
+      "non_image_buffer_sha256": "1311897528b04af6ac529961a0e476b01373472b18fb1a64c86b12c4168301e1",
+      "textures": [
+        {
+          "input_bytes": 978454,
+          "output_bytes": 150306,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2314235,
+          "output_bytes": 385146,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    },
+    {
+      "id": "mossy-rock",
+      "file": "assets/mossy-rock.web.glb",
+      "sha256": "ee26dd5eec3643d3dfbc7e8525560ef166c19e5c1f683ee25a13a9da389eab78",
+      "source_sha256": "ea4bf091b98671a23d5591b6c687cce7cf4b6315fc1f66812a8f33264faafcf2",
+      "source_bytes": 3746412,
+      "bytes": 905884,
+      "triangles": 11999,
+      "non_image_buffer_sha256": "6c9db60b940d34ce347613885dd7e0584b499168d2e14cca6046df6392003dd4",
+      "textures": [
+        {
+          "input_bytes": 1015174,
+          "output_bytes": 174746,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2391222,
+          "output_bytes": 390998,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    },
+    {
+      "id": "barrel-crates",
+      "file": "assets/barrel-crates.web.glb",
+      "sha256": "e9e7008922ce02a7cd2b620618c3b54d5b516f4938187628637711aad572e993",
+      "source_sha256": "f0baaadb0bbd9912060936935c026f3f074519a6a4068cd1276b59212a643755",
+      "source_bytes": 4837080,
+      "bytes": 1718636,
+      "triangles": 31990,
+      "non_image_buffer_sha256": "b7e852e96ff14dde4c1822d2843cc7e6f2e80022fad62a25f11cdb34933f3aad",
+      "textures": [
+        {
+          "input_bytes": 953406,
+          "output_bytes": 158000,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        },
+        {
+          "input_bytes": 2818841,
+          "output_bytes": 495678,
+          "input_width": 2048,
+          "input_height": 2048,
+          "max_output_dimension": 1024
+        }
+      ]
+    }
+  ],
+  "media": [
+    {
+      "file": "stillwater-social-v1.jpg",
+      "sha256": "b21167c9372789c145a2cf43ee9734cfa9a357a1dc2c68231d5dd0b12135df72",
+      "bytes": 170238
+    },
+    {
+      "file": "stillwater-scene-v1.webp",
+      "sha256": "5a404ad5da337c07ee9872ef39bce489fdd4a96a63fa64fae0f0cce3ceea9eef",
+      "bytes": 133512
+    },
+    {
+      "file": "stillwater-teaser-v1.webp",
+      "sha256": "af710522d9d32eeb65506a9607fab5c08c78d0a6c12c6efcf8a29df094e38242",
+      "bytes": 52442
     }
   ]
 }
