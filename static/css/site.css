@@ -79,6 +79,11 @@ h1, h2, h3 { text-wrap: balance; }
 .signal-meta i { width: 7px; height: 7px; border-radius: 50%; background: #79b47f; box-shadow: 0 0 0 4px rgba(121,180,127,.12); }
 .signal-meta a { color: #d6a172; }
 
+.showcase-teaser { display: grid; grid-template-columns: minmax(0, 1fr) auto; align-items: center; gap: 40px; padding: 36px; border: 1px solid var(--line); border-left: 4px solid var(--amber); background: var(--card); }
+.showcase-teaser .eyebrow { margin-bottom: 16px; }
+.showcase-teaser h2 { margin: 0; font: 700 clamp(28px, 3.5vw, 40px)/1.15 var(--serif); letter-spacing: -.025em; }
+.showcase-teaser p:not(.eyebrow) { max-width: 690px; margin: 16px 0 0; color: var(--muted); font: 400 17px/1.65 var(--serif); }
+
 .section { padding-block: clamp(76px, 9vw, 120px); }
 .section-heading { display: flex; justify-content: space-between; align-items: end; gap: 28px; margin-bottom: 45px; }
 .section-heading h2, .project-band h2 { margin: 0; font-size: clamp(34px, 4vw, 54px); line-height: 1.05; letter-spacing: -.045em; }
@@ -174,6 +179,8 @@ h1, h2, h3 { text-wrap: balance; }
   nav { gap: 16px; }
   nav a { font-size: 12px; }
   nav a:last-child { display: none; }
+  .showcase-teaser { grid-template-columns: 1fr; gap: 24px; padding: 26px; }
+  .showcase-teaser .button { justify-self: start; }
   .hero { padding-top: 68px; }
   .hero h1 { font-size: clamp(42px, 13vw, 62px); }
   .signal-card { padding: 25px; box-shadow: 8px 8px 0 var(--paper-deep); }
