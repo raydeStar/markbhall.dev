@@ -1,0 +1,3 @@
+# Preserve the tested static bundle byte for byte, including shader strings.
+static/stillwater/** -text linguist-generated=true
+static/stillwater/assets/*.js -whitespace

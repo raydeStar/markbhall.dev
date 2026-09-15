@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#172723" />
+    <meta
+      name="description"
+      content="Explore Stillwater, an interactive 3D lakeside village at sunset. Wander the scene and inspect seven individually crafted AI assets."
+    />
+    <title>Stillwater — A lakeside retreat</title>
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='16' fill='%23172723'/%3E%3Cpath d='M32 9L12 40h13l-8 10h30l-8-10h13z' fill='%23c2af77'/%3E%3C/svg%3E"
+    />
+    <script type="module" crossorigin src="./assets/main-D6hzxb0v.js"></script>
+    <link rel="modulepreload" crossorigin href="./assets/modulepreload-polyfill-B5Qt9EMX.js">
+    <link rel="modulepreload" crossorigin href="./assets/three-DTv7iF0v.js">
+    <link rel="stylesheet" crossorigin href="./assets/main-BF55xklp.css">
+  </head>
+  <body>
+    <div id="app">
+      <header class="topbar">
+        <a class="brand" href="./" aria-label="Stillwater home"
+          ><svg viewBox="0 0 32 40" aria-hidden="true">
+            <path d="M16 2 4 22h8L5 32h9v6h4v-6h9l-7-10h8Z" /></svg
+          ><span>STILLWATER<small>A LAKESIDE RETREAT</small></span></a
+        >
+        <div class="top-note">
+          <span class="live-dot"></span>A small world, a slower afternoon.
+        </div>
+        <button id="reference-button" class="quiet-button">
+          ↗ The inspiration
+        </button>
+      </header>
+      <main class="workspace">
+        <section class="world-panel" aria-label="Interactive village scene">
+          <div id="world" class="viewport"></div>
+          <div class="scene-heading">
+            <div class="eyebrow">THE NORTHERN SHORE · 01</div>
+            <h1>Somewhere<br />by the water.</h1>
+            <p>Pines, timber, and the last light of day.</p>
+          </div>
+          <div class="scene-status">
+            <span class="live-dot"></span
+            ><span id="load-status" role="status">Preparing the shore…</span>
+          </div>
+          <div class="scene-bottom">
+            <div class="camera-tabs" role="group" aria-label="Scene viewpoints">
+              <button
+                data-camera="reference"
+                class="active"
+                aria-pressed="true"
+                title="Return to the composition inspired by the original image"
+              >
+                Reference view</button
+              ><button data-camera="village" aria-pressed="false">
+                The village</button
+              ><button data-camera="overlook" aria-pressed="false">
+                Overlook
+              </button>
+            </div>
+            <button
+              id="motion-button"
+              class="glass-button"
+              aria-pressed="false"
+              title="Pause water and atmosphere"
+            >
+              Ⅱ Pause
+            </button>
+          </div>
+          <div class="scene-instructions">
+            DRAG TO EXPLORE <span>·</span> SCROLL TO ZOOM <span>·</span> CLICK
+            AN ASSET TO INSPECT
+          </div>
+          <div id="world-error" class="error-message" hidden></div>
+        </section>
+        <aside class="inspector-panel" aria-label="Individual asset inspector">
+          <div class="inspector-heading">
+            <div>
+              <div class="eyebrow">THE COLLECTION</div>
+              <h2>A closer look.</h2>
+            </div>
+            <span id="collection-count" class="count-badge">0 / 7</span>
+          </div>
+          <div class="inspector-stage">
+            <div
+              id="inspector"
+              class="viewport"
+              aria-label="Rotate the selected 3D asset"
+            ></div>
+            <span class="stage-caption">DRAG TO TURN · SCROLL TO ZOOM</span
+            ><button
+              id="reset-asset"
+              class="round-button"
+              title="Reset asset view"
+              aria-label="Reset asset view"
+            >
+              ↺
+            </button>
+            <div id="asset-loading" class="asset-loading" role="status">
+              Loading the collection…
+            </div>
+          </div>
+          <div class="asset-info">
+            <div class="asset-title-row">
+              <h3 id="asset-name">Timber cabin</h3>
+              <span id="asset-index">01</span>
+            </div>
+            <p id="asset-description">
+              A warm little refuge on the northern shore.
+            </p>
+            <div class="asset-meta">
+              <span id="asset-detail">Reconstructing from its reference</span
+              ><a id="download-asset" href="#" download hidden
+                >Download GLB ↗</a
+              >
+            </div>
+          </div>
+          <div class="asset-tools">
+            <button id="auto-rotate" aria-pressed="true" class="active">
+              ↻ Auto rotate</button
+            ><button id="wireframe" aria-pressed="false">◇ Wireframe</button
+            ><button id="asset-reference">▧ Reference</button>
+          </div>
+          <div
+            id="asset-list"
+            class="asset-list"
+            role="group"
+            aria-label="Choose an asset"
+          ></div>
+          <div class="inspector-footer">
+            <span class="live-dot"></span
+            ><span id="stage-status"
+              >Shape study · individual AI reconstructions</span
+            >
+          </div>
+        </aside>
+      </main>
+      <footer class="page-footer">
+        <span>BUILT ONE PIECE AT A TIME</span
+        ><span
+          >THREE.JS <span class="footer-cross">×</span> REFERENCE ASSET
+          COMPILER</span
+        ><span>Take your time. The lake can wait.</span>
+      </footer>
+    </div>
+    <dialog id="reference-dialog">
+      <form method="dialog">
+        <button class="close-dialog" aria-label="Close reference">×</button>
+      </form>
+      <div class="eyebrow" id="reference-title">THE ORIGINAL INSPIRATION</div>
+      <img
+        id="reference-image"
+        src="./reference.png"
+        alt="Painterly pine forest village beside a lake at sunset"
+      />
+      <p id="reference-description">
+        The artistic starting point for Stillwater.
+      </p>
+    </dialog>
+  </body>
+</html>

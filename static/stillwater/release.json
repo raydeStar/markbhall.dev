@@ -1,0 +1,50 @@
+{
+  "schema": "stillwater.public-release.v1",
+  "published_path": "/stillwater/",
+  "version": "2026-09-15-cleanup-v3-pages",
+  "scene_source_sha256": "90a37f50980bc59764a09d64f92d53314c21b0b304dfe8c061e750516200409a",
+  "assets": [
+    {
+      "id": "timber-cabin",
+      "file": "assets/timber-cabin.glb",
+      "sha256": "9a0548a0f45dc984848e219433c1be2862723d42210f657139abcd23f2d744af",
+      "triangles": 64999
+    },
+    {
+      "id": "round-cottage",
+      "file": "assets/round-cottage.glb",
+      "sha256": "1b640a63541d535b32ae5f02c9794171e54fc7b8f17833edb684a87d5a282ed3",
+      "triangles": 59998
+    },
+    {
+      "id": "pine-tree",
+      "file": "assets/pine-tree.glb",
+      "sha256": "d40f622d40ef9aa8eabf1f8b2db2c632251833b1ea4c53936c43bfb9b4d9be47",
+      "triangles": 11810
+    },
+    {
+      "id": "wooden-dock",
+      "file": "assets/wooden-dock.glb",
+      "sha256": "a1b3fcfd1e064ead0e93cd860a8b8a2c56e543b95c82bd39cb9179f7cc549561",
+      "triangles": 31999
+    },
+    {
+      "id": "rowboat",
+      "file": "assets/rowboat.glb",
+      "sha256": "0107436ff25bce0e502589ef1ac825a23524267fa253ab3ca7bc06d62bcf630a",
+      "triangles": 35000
+    },
+    {
+      "id": "mossy-rock",
+      "file": "assets/mossy-rock.glb",
+      "sha256": "ea4bf091b98671a23d5591b6c687cce7cf4b6315fc1f66812a8f33264faafcf2",
+      "triangles": 11999
+    },
+    {
+      "id": "barrel-crates",
+      "file": "assets/barrel-crates.glb",
+      "sha256": "f0baaadb0bbd9912060936935c026f3f074519a6a4068cd1276b59212a643755",
+      "triangles": 31990
+    }
+  ]
+}
